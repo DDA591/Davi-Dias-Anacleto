@@ -1,0 +1,21 @@
+button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 0;
+    background-color: gray;
+    font-family: fantasy;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px #000000;
+    transition: all 0.2s ease-in-out;
+
+}
+
+button:hover{
+    background-color: cornsilk;
+}
