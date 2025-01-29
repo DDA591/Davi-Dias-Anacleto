@@ -14,17 +14,23 @@ body{
 }
 
 .imagem{
-    border-radius: 200px;
     display: flex;
     justify-content: center;
 }
 
 .img{
-    border-radius: 200px;
+    border-radius: 50%;
+    border: 10px solid red;
+
 }
 
 .texto{
     color: white;
     display: flex;
     justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    line-height: 1.0;
+    font-size: 20px;
 }
+

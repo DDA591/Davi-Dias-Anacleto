@@ -5,7 +5,7 @@ button{
     width: 200px;
     height: 80px;
     border: none;
-    border-radius: 0;
+    border-radius: 10px;
     background-color: gray;
     font-family: fantasy;
     color: #fff;
@@ -13,9 +13,38 @@ button{
     cursor: pointer;
     box-shadow: 4px 4px 0px #000000;
     transition: all 0.2s ease-in-out;
-
 }
 
 button:hover{
-    background-color: cornsilk;
+    background-color: rgb(118, 176, 234);
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.img-2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 670px;
+    right: 780px;
+
+}
+
+.img-3{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 780px;
+    top: 565px;
+}
+
+.img-4{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 795px;
+    top: 770px;
 }
